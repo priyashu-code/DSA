@@ -1,0 +1,32 @@
+Array is stored in contiguous memory location
+and it has a fixed size so we neither can decrease the size of the array nor
+we can increase it.
+
+So here LL comes into play linked list is simmilar data structure
+but it does not store at contiguous memory location.
+But their size can be increased or decreased at any moment.
+
+In array we need to check whether memory is present at contiguous or not
+but in case of LL it just find any free place in the heap and gets there.
+
+We know the location of the head and head has the address of next element and so on all have
+the address of their next element. That's how we traverse in LL.
+
+#Why LL is used? --> stack and queue(Because they have no limited size) 
+and in real life always used in browser.
+
+We use struct to create LL because we have to store data as well as a pointer
+pointing to the next location.And there is no such data type so we have to define a self defined data type.
+
+struct node{
+    int data;
+    node* next;
+}
+
+With struct we can't use OOP's concept but in industry we need them so in place
+of struct we can use class.And it works absolutely same
+so next time whenever you are making self defining object always use class it will
+also help in graph.
+
+
+
