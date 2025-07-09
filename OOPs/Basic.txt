@@ -1,0 +1,31 @@
+            Principles of OOP
+
+    1.Abstraction:-  Let's consider a car all of it's parts like engine,shaft etc are hidden inside
+the bonut the thing visible to us is steering and to drive the car driver need not to know it's working.
+So similarly in software we need abstraction we don't want to give the details of implementation of the 
+function we want it to be hidden.We will only show function inside a class not it's data.
+    As i use printf function but i don't know how it works internally that's abstraction.
+    ->It helps you interact with objects without knowing how they work internally.
+    ->It focuses on what object does not howw it does it. 
+
+    2.Encapsulation:- Data hiding it's basically done to avoid the mishandling of data
+it's the concept of bundling data(variables) and methods(functions) that work on the data into a single unit
+usually a class and restricting direct access to some of object's components.
+
+    ->Data hiding: internal object details are hidden using access modifiers like private,protectted or public.
+    ->Access through methods: You use getters and setters to access or modify private variables.
+    ->Improved security: Prevents unauthorized access and unintended changes.
+
+    3.Inheritance:- Inheritance is the concept where a new class (child/derived class) is created from an existing 
+    class (parent/base class).
+The child class inherits the properties and behaviors (data and methods) of the parent class.
+ 
+    ->Code reusability: Write common code once in the base class and reuse it in derived classes.
+
+    ->Is-a relationship: A Dog is a type of Animal.
+
+    ->Method overriding: Child class can modify or extend the behavior of the parent class.
+    
+    4.Polymorphism:-  Polymorphism means "many forms" — the ability of a single function, class, or operator 
+    to behave differently based on context.
+It allows the same interface to be used for different types of objects.
