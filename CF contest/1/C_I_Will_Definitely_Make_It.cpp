@@ -24,7 +24,7 @@ while (t--)
     for(int i=1;i<=n;i++){
         if(a[i]>h){
             time=abs(a[i]-h);
-            if()
+            
         }
         else l++;
 
