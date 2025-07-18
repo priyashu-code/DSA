@@ -1,0 +1,24 @@
+1-Sequence container:- Data is stored in a linear sequence
+    1- Array:- Memory is contiguous and fixed
+    2-Vector:- Dynamic array Memory is contiguous
+    3- Deque:- Doubly ended queue it can expand and contract from both front and rear{it's mem. is complex can read it}
+    4- Forward List:- Singly LL mem. not contiguous
+    5- List:- Doubly LL mem. not contiguous
+
+2- Associative Containers:- Use the tree like structure to store the data and the data is ordered
+    1-Set:- Unique elements are stored. and ordered(sorted manner)(it uses a BST like structure  to store value)
+    2-Multiset:- Can also store duplicate element.
+    3-Map:- Used to store a collection of (Key,value) pair data is stored orderly as per key value(it uses a BST like structure  to store value)
+    4-Multimap:- One key can have multiple values
+
+3-Unordered Associative Containers:- If you don't want data to be stored in a sorted fashion.
+    1-Unordered Set:- 
+    2-Unordered Multiset:-
+    3-Unordered Map:- It's like a Hash table.
+    4-Unordered Multimap:-
+
+4- Container Adapter:- 
+    1-Stack:-
+    2-Queue:-
+    3-Priority Queue:- Heap data structure only name looks like queue.
+
